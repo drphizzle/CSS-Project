@@ -1,0 +1,142 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGhZVPz_a3Wh0Oe_oUA0vQSSHDMkHap3m0Q&s);
+    background-size: 100%;
+    border-radius: 15px;
+    color: rgb(70, 62, 62);
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    text-transform: none;
+
+}
+
+
+#aboutimage {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduOesTaODu1N1hDC5OP74mIjoPRv4UqAZRw&s);
+    
+}
+
+#workimage {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiqsUJVrWzDsGea8iiRLOQq7QQ_bJyJU4HFA&s);
+    
+}
+
+#contactimage {
+    background-image: url(https://www.papertiger.co.uk/cdn/shop/files/670983141306.jpg?v=1688112781);
+    border: 2px solid whitesmoke;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+
+/* HOVERS */
+
+li:hover {
+    background-color: blue;
+    
+}
+
+select:hover, button:hover {
+    background-color: blueviolet;
+}
+
+li {
+    display: inline;  
+    margin-right: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+}
+
+figure {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+    
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    font-style: italic;
+    
+    
+    
+}
+
+.pics figure {
+    text-align: center;
+}
+
+
+.pics img {
+    border-radius: 50%;
+    box-shadow: rgb(71, 70, 70) 5px 5px 10px;
+    border: 1px solid whitesmoke;
+
+}
+
+.phizzle {
+    text-align: center;
+    color:blueviolet;
+    font-size: 50px;
+}
+
+table {
+    background-color: aqua;
+    height: 400px;
+    text-align: center;
+
+    
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: blueviolet;
+    color: antiquewhite;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: blueviolet;
+    border-radius: 50px;
+    text-align: center;
+    padding: 1px 1px;
+    margin: 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: aliceblue;
+    color: aliceblue;
+    
+    
+    
+}
+
+
+
+
